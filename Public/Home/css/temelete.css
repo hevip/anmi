@@ -1,0 +1,323 @@
+#person{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#person .person_Top{
+	width: 100%;
+	overflow: hidden;
+	padding: 1.4rem 0;
+	border-bottom: 1px solid #DDDDDD;
+}
+#person .person_Top a{
+	display: block;
+	width: 92.2%;
+	margin: 0 auto;
+	overflow: hidden;
+	line-height: 5.4rem;
+}
+#person .person_Top a em{
+	display: block;
+	width: 5.4rem;
+	height: 5.4rem;
+	overflow: hidden;
+	border-radius: 100%;
+	float: left;
+}
+#person .person_Top a em img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#person .person_Top a i{
+	float: right;
+	font-size: 1.5rem;
+	color: #c6c6c6;
+}
+#person .person_Top a span{
+	font-size: 1.4rem;
+	color: #333333;
+	margin-left: 2%;
+}
+#person .person_con{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#person .person_con a{
+	display: block;
+	width: 92.2%;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	font-size: 1.4rem;
+}
+#person .person_con a i{
+	font-size: 1.7rem;
+	margin-right: 3%;
+}
+
+
+/**功能列表**/
+#GongNeng{
+	width: 100%;
+	overflow: hidden;
+}
+#GongNeng h1{
+	width: 100%;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #333333;
+	font-weight: normal;
+}
+#GongNeng ul{
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #e5e5e5;
+}
+#GongNeng ul li{
+	width: 24.5%;
+	float: left;
+	overflow: hidden;
+	height: 8rem;
+	border-right: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+#GongNeng ul li:nth-child(4n){
+	border-right: 0;
+}
+#GongNeng ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	font-size: 1rem;
+	color: #333333;
+}
+#GongNeng ul li a i{
+	display: block;
+	margin: 1.2rem auto 1rem auto;
+	overflow: hidden;
+	width: 3.4rem;
+	height: 3.4rem;
+	border-radius: 0.4rem;
+	text-align: center;
+	line-height: 3.4rem;
+	color: #FFFFFF;
+	font-size: 2.1rem;
+}
+#BiaoD{
+	width: 100%;
+	overflow: hidden;
+}
+.tianxie_bd{
+	width: 92.2%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#BiaoD h1{
+	width: 100%;
+	font-size: 1.2rem;
+	color: #333333;
+	overflow: hidden;
+	line-height: 3.25rem;
+	margin-top: 0.5rem;
+	font-weight: normal;
+}
+#BiaoD p{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	margin-bottom:.5rem;
+}
+.tianxie_bd .Zejia{
+	width: 100%;
+	overflow: hidden;
+}
+.tianxie_bd .Zejia a{
+	display: block;
+	width: 100%;
+	color: #999;
+	font-size: 1.2rem;
+	line-height: 3rem;
+	overflow: hidden;
+	text-align: right;
+}
+.tianxie_bd .Zejia a i{
+	font-size: 1.8rem;
+	
+	line-height: 3.4rem;
+	margin-right: 1%;
+}
+.tianxie_bd p select,.tianxie_bd p input[type=text],.tianxie_bd p em,.tianxie_bd p textarea{
+	width: 99%;
+	margin: 0 auto;
+	display: block;
+	height: 3.9rem;
+	line-height: 3.9rem;
+	padding:0 3.3%;
+	border: 1px solid #dddddd;
+	font-style: normal;
+	font-size: 1.2rem;
+	color: #737373;
+	border-radius: 0.4rem;
+	background: #f7f7f7;
+}
+.tianxie_bd p input[type=text],.tianxie_bd p em,.tianxie_bd p textarea{
+	width: 92.4%;
+}
+.tianxie_bd p textarea{
+	height: 9.5rem;
+	resize: none;
+	line-height: 100%;
+}
+.tianxie_bd p i{
+	position: absolute;
+	right: 3%;
+	font-size: 2rem;
+	line-height: 4rem;
+	color: #737373;
+}
+.tianxie_bd sub,.foll{
+	width: 27%;
+	height: 2.8rem;
+	font-style: normal;
+	display: inline-block;
+	background: #f2f6f8;
+	overflow: hidden;
+	text-align: center;
+	line-height: 2.8rem;
+}
+.foll{
+	position: absolute;
+	opacity: 0;
+}
+.tianxie_bd p strong{
+	font-weight: normal;
+	color: #999999;
+}
+.btn-th{
+	width: 92.2%;
+	overflow: hidden;
+	display: block;
+	background: #89c6ff;
+	color: #FFFFFF;
+	height: 4.3rem;
+	line-height: 4.3rem;
+	text-align: center;
+	border-radius: 2rem;
+	font-size: 1.4rem;
+	margin: 1.6rem auto;
+}
+.XianS{
+	width: 92.2%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.XianS h1{
+	margin-top: 1.6rem !important;
+	line-height: 140% !important;
+	overflow: hidden;
+}
+.XianS h1 span{
+	display: block;
+	width: 23.7%;
+	float: left;
+	overflow: hidden;
+	color: #999999 !important;
+}
+.XianS h1 b{
+	width: 72.2%;
+	float: left;
+	display: block;
+	overflow: hidden;
+	font-weight: normal;
+}
+#BiaoD p span{
+	color: #aaaaaa;
+	display: block;
+	font-size: 1.1rem;
+	margin-top: 1.6rem;
+}
+.female, .male {
+    position: relative; /* 设置为相对定位，以便让子元素能绝对定位 */
+    height: 2rem;
+    line-height: 2rem;
+    margin-left: 2rem;
+}
+.tianxie_bd ul{
+	width: 96%;
+	overflow: hidden;
+	margin-top: 1rem;
+	margin-left: 4%;
+}
+.tianxie_bd ul li{
+	width: 50%;
+	margin-bottom: 1.5rem;
+	overflow: hidden;
+	float: left;
+}
+.tianxie_bd ul li span{
+	width: 1.4rem;
+	height: 1.4rem;
+	display: block;
+	float: left;
+	border: 0.1rem solid #b0b0b0;
+	border-radius: .2rem;
+}
+.tianxie_bd ul li label{
+	color: #333333;
+	font-size: 1.25rem;
+	line-height: 1.6rem;
+	cursor: pointer;
+}
+.tianxie_bd ul li span.active{
+	background: url(../Images/xuanzhong.jpg) no-repeat;
+	background-size:110% 100%;
+	border-color: #005aad;
+}
+
+
+/**申请成功**/
+.Sq_cheng{
+	width: 100%;
+	overflow: hidden;
+}
+.Sq_cheng img{
+	width: 8.15rem;
+	height: 8.15rem;
+	border-radius: 100%;	
+	margin: 3.85rem auto 2.1rem auto;
+	overflow: hidden;
+	display: block;
+}
+.Sq_cheng h1{
+	line-height: 3rem;
+	color: #333333;
+	font-size: 1.6rem;
+	text-align: center;
+	font-weight: normal;
+}
+.Sq_cheng p{
+	width: 91%;
+	margin: 0 auto;
+	overflow: hidden;
+	line-height: 2.3rem;
+	font-size: 1.4rem;
+	color: #333333;
+	margin-top: .5rem;
+}
+.Sq_cheng a{
+	display: block;
+	margin: 0 auto;
+	width: 7.4rem;
+	color: #005aad;
+	text-decoration: underline;
+	margin-top: 6.9rem;
+	font-size: 1.6rem;
+}

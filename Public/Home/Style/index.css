@@ -1,0 +1,328 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "microsoft yahei";
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+.Box{
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+
+#Nav_Nei{
+	width: 100%;
+	overflow: hidden;
+	height: 8rem;
+	overflow: hidden;
+	border-bottom: 0.15rem #dcdcdc solid;
+}
+#Nav_Nei .swiper-container{
+	height: 100%;
+}
+#Nav_Nei ul{
+	width: 100%;
+	height: 4.5rem;
+	margin-top: 1.3rem;
+}
+#Nav_Nei ul li{
+	width: 100%;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+#Nav_Nei a{
+	display: block;
+	width: 25%;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	font-size: 1.1rem;
+	color: #333;
+	text-align: center;
+}
+#Nav_Nei ul li a img{
+	display: block;
+	width: 2.2rem;
+	height: 1.75rem;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+#List_News{
+	width: 100%;
+	overflow: hidden;
+}
+#List_News ul{
+	width: 100%;
+	overflow: hidden;
+}
+#List_News ul li{
+	width: 100%;
+	overflow: hidden;
+	height: 7.4rem;
+	padding: 1rem 0;
+	border-bottom: 0.1rem solid #DCDCDC;
+}
+#List_News ul li a{
+	display: block;
+	width: 93.75%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#List_News ul li a .img_L{
+	width: 36%;
+	height: 100%;
+	overflow: hidden;
+}
+#List_News ul li a .img_L img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#List_News ul li a .Word_R{
+	width: 60%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#List_News ul li a .Word_R h1{
+	font-size: 1.1rem;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	font-weight: normal;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	line-height:1.8rem;
+	color: #333333;
+}
+#List_News ul li a .Word_R p{
+	position: absolute;
+	bottom: 0;
+	color: #bababa;
+	width: 100%;
+	font-size: 1rem;
+	overflow: hidden;
+}
+#List_News ul li a .Word_R p span{
+	float: left;
+}
+#List_News ul li a .Word_R p img{
+	display: block;
+	float: left;
+	width: 1.3rem;
+	height: 0.8rem;
+	overflow: hidden;
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+footer{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 5rem;
+}
+footer .Footer_con{
+	width: 100%;
+	padding: 0.4rem 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 0.1rem solid #dcdcdc;
+	background: #FFFFFF;
+}
+footer .Footer_con ul{
+	width: 100%;
+	overflow: hidden;
+}
+footer .Footer_con ul li{
+	width: 33.333%;
+	overflow: hidden;
+	float: left;
+	overflow: hidden;
+}
+footer .Footer_con ul li a{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	color: #898989;
+	text-align: center;
+}
+footer .Footer_con ul li a:hover,.footer_Active{
+	color: #EB423D !important;
+}
+footer .Footer_con ul li a img{
+	height: 1.7rem;
+	width: 1.8rem;
+	margin: 0 auto;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 0.5rem;
+}
+/**视频播放页**/
+#Video_play{
+	width: 100%;
+	overflow: hidden;
+}
+#Video_play .Play_box{
+	width: 100%;
+	overflow: hidden;
+	background: #FFFFFF;
+	padding-bottom: 3rem;
+}
+#Video_play .video_play{
+	width: 94%;
+	margin: 0 auto;
+	position: relative;
+}
+#Video_play .Word_video{
+	width: 94%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#Video_play .Word_video h1{
+	font-size: 1.2rem;
+	color: #333333;
+	line-height: 2.2rem;
+	font-weight: normal;
+}
+#Video_play .Word_video p{
+	font-size: 1rem;
+	color: #737373;
+	line-height: 2rem;
+	margin-bottom: 0.5rem;
+}
+#Video_play .Word_video p a{
+	margin-left: 4%;
+	color: #737373;
+}
+#FEnx_d{
+	width: 100%;
+	padding: 2rem 0 1rem 0;
+	overflow: hidden;
+	background: #f2f5f5;
+}
+#FEnx_d .btn-Like{
+	width: 58.4%;
+	overflow: hidden;
+	margin: 0 auto;
+	display: block;
+	height: 3.5rem;
+	color: #FFFFFF;
+	border-radius: 1rem;
+	background: #fb6568;
+	text-align: center;
+	line-height: 3.5rem;
+	font-size: 1.6rem;
+}
+#FEnx_d .btn-Like img{
+	width: 2rem;
+	height: 2rem;
+	margin-right: 5%;
+}
+#FEnx_d p{
+	width: 34%;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../img/xt-1_21.png) no-repeat left center;
+	background-size: 100%;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 1.1rem;
+	color: #827c7d;
+}
+#FEnx_d p a{
+	float: left;
+	width: 1.65rem;
+	height: 1.65rem;
+	display: block;
+	margin-right: 21%;
+}
+#FEnx_d p a:nth-child(3n){
+	margin-right: 0;
+}
+#FEnx_d p a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.Ys_yueD{
+	width: 100%;
+	border-top: 0.1rem solid #e3dede;
+	overflow: hidden;
+}
+.Ys_yueD h1{
+	width: 94%;
+	margin: 0 auto;
+	padding-left:2% ;
+	overflow: hidden;
+	border-bottom: 0.1rem solid #e3dede;
+	height: 4rem;
+	line-height: 4rem;
+	font-weight: normal;
+}
+.Ys_yueD h1 img{
+	width: 1.5rem;
+	height: 1.65rem;
+	margin-right: 3%;
+}
+.search{
+	width: 96%;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	height: 4rem;
+	margin-top: 0.6rem;
+}
+.search form{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	background: #FFFFFF;
+	padding: .4rem 0;
+}
+.search input[type=text]{
+	width: 70%;
+	float: left;
+	height: 3.2rem;
+	padding:0 2% 0 2.4rem;
+	background-color: #f2f5f5;
+	outline: none;
+	background-image: url(../img/youhua1_58.png);
+	background-repeat:no-repeat;
+	background-size: 1.25rem 1.25rem;
+	background-position:0.8rem center;
+	color: #333333;
+}
+
+.search a{
+	width: 14%;
+	float: right;
+	display: block;
+	overflow: hidden;
+	font-size: 0.8rem;
+	color: #a9a8a8;
+}
+.search a img{
+	width: 1.3rem;
+	height: 1.3rem;
+	display: block;
+	margin-bottom: .25rem;
+	margin-top: .4rem;
+}

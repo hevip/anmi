@@ -1,0 +1,153 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+
+
+*{margin:0;padding:0;}
+
+:focus{outline:none;}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+li{list-style:none;}
+
+table{border-collapse:collapse;border-spacing:0;}
+
+button{cursor:pointer;}
+
+textarea{display:block;resize:none;overflow-y:auto;}
+
+a{color:#369;text-decoration:none;}
+
+a:hover{text-decoration:underline;}]
+
+body{font:12px/1.5 "Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti; color:#333; background-color:#fff;}
+
+@font-face {font-family: 'iconfont';
+
+ src: url('../Font/iconfont.eot'); /* IE9*/
+
+ src: url('../Font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+
+ url('../Font/iconfont.woff') format('woff'), /* chrome��firefox */
+
+ url('../Font/iconfont.ttf') format('truetype'), /* chrome��firefox��opera��Safari, Android, iOS 4.2+*/
+
+ url('../Font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+
+}
+
+.iconfont
+
+{font-family:"iconfont" !important;  font-style:normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale; font-size: 1.5em;}
+
+
+.dingdan_tol{width: 91%; height: 50px; margin: auto;}
+
+.dingdan_tol ul li{float: left; width: 33%; height: 50px; line-height: 50px;  }
+
+.dingdan_tol ul li a{text-decoration: none;}
+
+.dingdan_a{color: white; float: left; line-height: 50px; height: 50px; }
+
+.dingdan_a_two{float: right; color: white;}
+
+.dingdan_size{font-size: 1.2em; text-align: center; color: white; font-weight:bold;}
+
+.li_a_col a{color: white; font-size: 0.9em; font-family:"微软雅黑";}
+
+
+
+/* 绑定手机号码 */
+
+.account_main
+
+{width:100%; background:#fff; height:auto; overflow:hidden;}
+
+.mainForm
+
+{width:90%; margin:0 auto; overflow:hidden; padding:30px 0;}
+
+.promptCon
+
+{width:100%; height:auto; font-size:16px; color:#888; margin-bottom:20px; line-height:22px;}
+
+.normalInput
+
+{float:left; width:100%; height:auto; font-size:16px; margin-bottom:20px; color:#474747; overflow:hidden;}
+
+.normalInput span
+
+{float:left; width:20%; border:1px solid #ccc; height:40px; line-height:40px; text-align:center; display:block; border-radius:5px;}
+
+.normalInput input
+
+{font-size:16px; width:95%; height:40px; line-height:40px; border:1px solid #ccc; float:left; border-radius:5px;  -webkit-appearance:none; padding:0 2%;}
+
+.nextBtn
+
+{float:left; width:100%; height:40px; line-height:40px; background:#fe5050; text-align:center; border-radius:5px; -webkit-appearance:none;}
+
+/*.nextBtn a
+
+{color:#fff; font-size:16px; font-weight:bold;}*/
+
+.nextBtn .submit
+
+{width:100%; height:40px; color:#ffffff; cursor:pointer; border:none; background:#fd9e32;  -webkit-appearance:none;
+
+border-radius:5px;}
+
+.error{display: none;margin-left: 0px;margin-bottom: 20px;color: red;float: left;}
+
+
+
+.phoneNumber
+
+{width:100%; margin:0 auto; height:40px; line-height:40px; border-bottom:1px solid #ccc; color:#555;}
+
+
+
+/* 修改手机号码 */
+
+.msgsInput
+
+{float:left; width:100%; height:auto; font-size:16px; margin-bottom:20px; color:#474747; overflow:hidden;}
+
+.msgsInput input
+
+{float:left; width:60%; height:40px; line-height:40px; border:1px solid #ccc; font-size:16px;
+
+border-radius:5px;}
+
+.msgsInput .msgs
+
+{float:left; display:inline-block; width:80px; color:#fff; font-size:14px; border:1px solid #0697DA;
+
+text-align:center; height:40px; line-height:40px;background:#0697DA; cursor:pointer; margin-left:20px; -webkit-appearance:none;}
+
+.msgsInput .noSendSms
+
+{border:1px solid #aaaaaa; background:#aaaaaa;}
+
+.msgsInput .c_code_msg
+
+{width:50%;}
+
+form .msgs1
+
+{background:#e6e6e6; color:#818080; border:1px solid #ccc;}
+
+
+
+.normalInput .yzm
+
+{width:50%;}
+
+.normalInput .yzm_img
+
+{width:27%; height:40px; position:relative; left:5px; cursor:pointer;}
+
+
+

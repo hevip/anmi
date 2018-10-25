@@ -1,0 +1,372 @@
+.estimate{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top: 1px #E8E8E8 solid;
+    background: #FFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.estimate > dl{
+    width: 96%;
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.estimate > dl > dt{
+    float: left;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.estimate > dl > dt img{
+    width: 100%;
+    height: 100%;
+}
+.estimate > dl > dd{
+    margin-left: 70px;
+    overflow: hidden;
+}
+.estimate > dl > dd.txt{
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+}
+.estimate > dl > dd.estimateChoose{
+    height: 30px;
+    margin-top: 6px;
+    overflow: hidden;
+}
+.estimate > dl > dd.estimateChoose > ul{
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+.estimate > dl > dd.estimateChoose > ul >li{
+    float: left;
+    width: 33.3333%;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    color: #999;
+}
+.estimate > dl > dd.estimateChoose > ul >li i{
+    vertical-align: middle;
+    margin-right: 4px;
+    color: #999;
+}
+.estimate > dl > dd.estimateChoose > ul >li.click{
+    color: #E90327;
+}
+.estimate > dl > dd.estimateChoose > ul >li.click i{
+    color: #E90327;
+}
+.estimate > .textInput{
+    display: block;
+    width: 96%;
+    height: 70px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px #E4E4E4 solid;
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 12px;
+}
+.uploadPhoto{
+    width: 96%;
+    height:auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 2%;
+}
+.uploadPhoto > #fileList{
+	width:79.4%;
+	float:left;
+}
+.uploadPhoto > #fileList > .getData{
+    float: left;
+    width: 22%;
+    height: auto;
+    /*overflow: hidden;*/
+    margin-right: 3%;
+    margin-bottom: 8px;
+    position: relative;
+}
+.uploadPhoto > #fileList > .last{
+    margin-right: 0;
+}
+.uploadPhoto > #fileList > .getData > .pic{
+    width: 100%;
+    height: 0;
+    background-size: 100% 100%;
+    padding-bottom: 100%;
+    background: #EEE;
+}
+
+
+.uploadPhoto > .uploadBtn{
+    float: left;
+    width: 17.6%;
+    height: auto;
+    overflow: hidden;
+    margin-right: 3%;
+}
+.uploadPhoto > .uploadBtn > .btn{
+    width: 100%;
+    height: 0;
+    background-size: 100% 100%;
+    padding-bottom: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px #E6E6E6 solid;
+    position: relative;
+}
+.uploadPhoto > .uploadBtn > .btn > .icon{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 50%;
+    margin-left: -20px;
+}
+.uploadPhoto > .uploadBtn > .btn > .icon i{
+    font-size: 25px;
+    color: #B3B3B3;
+}
+.uploadPhoto > p.tips{
+    font-size: 12px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #999;
+}
+.businessScore{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 2%;
+    border-top: 5px #EEE solid;
+}
+.businessScore > p.title{
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #999;
+}
+.businessScore > ul.scoreUl{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.businessScore > ul.scoreUl > li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.businessScore > ul.scoreUl > li > span{
+    margin-right: 4px;
+}
+.businessScore > ul.scoreUl > li > label i{
+    margin-left: 5px;
+    color: #999;
+    font-size: 18px;
+}
+.businessScore > ul.scoreUl > li > label i.showOn{
+    color: #FF7F08;
+}
+.submit{
+    width: 96%;
+    height: 34px;
+    background: #E90327;
+    color: #FFF;
+    text-align: center;
+    line-height: 34px;
+    margin: 40px 2% 10px;
+    border-radius: 5px;
+}
+.uploadPhoto > #fileList > .getData > i{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 18px;
+    text-align: center;
+    color: #E90327;
+}
+.uploadPhoto > #fileList > .getData > span{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    bottom:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.uploadPhoto > #fileList > .getData > span > label{
+    width: 100%;
+    height: 20px;
+    display: block;
+    line-height: 20px;
+    font-size: 12px;
+    color: #FFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 2px;
+}
+.uploadPhoto > #fileList > .getData > span > em{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.uploadPhoto > #fileList > .getData > span > em.error{
+    color: #E90327;
+}
+.uploadPhoto > #fileList > .getData > span > em.right{
+    color: limegreen;
+}
+
+
+
+.uploader-list {
+    width: 100%;
+    overflow: hidden;
+}
+.uploader-list .file-item {
+    float: left;
+    position: relative;
+    margin: 0 20px 20px 0;
+    padding: 4px;
+}
+.uploader-list .file-item .error {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    background: red;
+    color: white;
+    text-align: center;
+    height: 20px;
+    font-size: 14px;
+    line-height: 23px;
+}
+.uploader-list .file-item .info {
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    right: 4px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow : ellipsis;
+    font-size: 12px;
+    z-index: 10;
+}
+/* .upload-state-done:after {
+    content:"\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 32px;
+    position: absolute;
+    bottom: 0;
+    right: 4px;
+    color: #4cae4c;
+    z-index: 99;
+} */
+
+.uploadPhoto > #fileList > .getData .progress {
+	width: 100%;
+    position: absolute;
+    right: 4px;
+    bottom: 0px;
+    height: 3px;
+    left: 0px;
+    height: 4px;
+    overflow: hidden;
+    z-index: 15;
+    margin:0;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+}
+.uploadPhoto > #fileList > .getData .progress span {
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    background: #d14 url(../Images/progress.png) repeat-x;
+    -webit-transition: width 200ms linear;
+    -moz-transition: width 200ms linear;
+    -o-transition: width 200ms linear;
+    -ms-transition: width 200ms linear;
+    transition: width 200ms linear;
+    -webkit-animation: progressmove 2s linear infinite;
+    -moz-animation: progressmove 2s linear infinite;
+    -o-animation: progressmove 2s linear infinite;
+    -ms-animation: progressmove 2s linear infinite;
+    animation: progressmove 2s linear infinite;
+    -webkit-transform: translateZ(0);
+}
+@-webkit-keyframes progressmove {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 17px 0;
+    }
+}
+@-moz-keyframes progressmove {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 17px 0;
+    }
+}
+@keyframes progressmove {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 17px 0;
+    }
+}
